@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041616E61F320E65001D6031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041616E51F320E65001D6031 /* AppDelegate.swift */; };
+		041616E81F320E65001D6031 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041616E71F320E65001D6031 /* FirstViewController.swift */; };
+		041616EA1F320E65001D6031 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041616E91F320E65001D6031 /* SecondViewController.swift */; };
+		041616ED1F320E65001D6031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041616EB1F320E65001D6031 /* Main.storyboard */; };
+		041616EF1F320E65001D6031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041616EE1F320E65001D6031 /* Assets.xcassets */; };
+		041616F21F320E65001D6031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041616F01F320E65001D6031 /* LaunchScreen.storyboard */; };
+		041616FD1F320E65001D6031 /* naturELLETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041616FC1F320E65001D6031 /* naturELLETests.swift */; };
+		041617081F320E65001D6031 /* naturELLEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041617071F320E65001D6031 /* naturELLEUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041616F91F320E65001D6031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041616DA1F320E65001D6031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041616E11F320E65001D6031;
+			remoteInfo = naturELLE;
+		};
+		041617041F320E65001D6031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041616DA1F320E65001D6031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041616E11F320E65001D6031;
+			remoteInfo = naturELLE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041616E21F320E65001D6031 /* naturELLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = naturELLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041616E51F320E65001D6031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		041616E71F320E65001D6031 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		041616E91F320E65001D6031 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		041616EC1F320E65001D6031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041616EE1F320E65001D6031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041616F11F320E65001D6031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		041616F31F320E65001D6031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041616F81F320E65001D6031 /* naturELLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = naturELLETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041616FC1F320E65001D6031 /* naturELLETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naturELLETests.swift; sourceTree = "<group>"; };
+		041616FE1F320E65001D6031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041617031F320E65001D6031 /* naturELLEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = naturELLEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041617071F320E65001D6031 /* naturELLEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naturELLEUITests.swift; sourceTree = "<group>"; };
+		041617091F320E65001D6031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041616DF1F320E65001D6031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041616F51F320E65001D6031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041617001F320E65001D6031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041616D91F320E65001D6031 = {
+			isa = PBXGroup;
+			children = (
+				041616E41F320E65001D6031 /* naturELLE */,
+				041616FB1F320E65001D6031 /* naturELLETests */,
+				041617061F320E65001D6031 /* naturELLEUITests */,
+				041616E31F320E65001D6031 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		041616E31F320E65001D6031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041616E21F320E65001D6031 /* naturELLE.app */,
+				041616F81F320E65001D6031 /* naturELLETests.xctest */,
+				041617031F320E65001D6031 /* naturELLEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041616E41F320E65001D6031 /* naturELLE */ = {
+			isa = PBXGroup;
+			children = (
+				041616E51F320E65001D6031 /* AppDelegate.swift */,
+				041616E71F320E65001D6031 /* FirstViewController.swift */,
+				041616E91F320E65001D6031 /* SecondViewController.swift */,
+				041616EB1F320E65001D6031 /* Main.storyboard */,
+				041616EE1F320E65001D6031 /* Assets.xcassets */,
+				041616F01F320E65001D6031 /* LaunchScreen.storyboard */,
+				041616F31F320E65001D6031 /* Info.plist */,
+			);
+			path = naturELLE;
+			sourceTree = "<group>";
+		};
+		041616FB1F320E65001D6031 /* naturELLETests */ = {
+			isa = PBXGroup;
+			children = (
+				041616FC1F320E65001D6031 /* naturELLETests.swift */,
+				041616FE1F320E65001D6031 /* Info.plist */,
+			);
+			path = naturELLETests;
+			sourceTree = "<group>";
+		};
+		041617061F320E65001D6031 /* naturELLEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				041617071F320E65001D6031 /* naturELLEUITests.swift */,
+				041617091F320E65001D6031 /* Info.plist */,
+			);
+			path = naturELLEUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041616E11F320E65001D6031 /* naturELLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0416170C1F320E65001D6031 /* Build configuration list for PBXNativeTarget "naturELLE" */;
+			buildPhases = (
+				041616DE1F320E65001D6031 /* Sources */,
+				041616DF1F320E65001D6031 /* Frameworks */,
+				041616E01F320E65001D6031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = naturELLE;
+			productName = naturELLE;
+			productReference = 041616E21F320E65001D6031 /* naturELLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		041616F71F320E65001D6031 /* naturELLETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0416170F1F320E65001D6031 /* Build configuration list for PBXNativeTarget "naturELLETests" */;
+			buildPhases = (
+				041616F41F320E65001D6031 /* Sources */,
+				041616F51F320E65001D6031 /* Frameworks */,
+				041616F61F320E65001D6031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041616FA1F320E65001D6031 /* PBXTargetDependency */,
+			);
+			name = naturELLETests;
+			productName = naturELLETests;
+			productReference = 041616F81F320E65001D6031 /* naturELLETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		041617021F320E65001D6031 /* naturELLEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041617121F320E65001D6031 /* Build configuration list for PBXNativeTarget "naturELLEUITests" */;
+			buildPhases = (
+				041616FF1F320E65001D6031 /* Sources */,
+				041617001F320E65001D6031 /* Frameworks */,
+				041617011F320E65001D6031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041617051F320E65001D6031 /* PBXTargetDependency */,
+			);
+			name = naturELLEUITests;
+			productName = naturELLEUITests;
+			productReference = 041617031F320E65001D6031 /* naturELLEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041616DA1F320E65001D6031 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Amal ";
+				TargetAttributes = {
+					041616E11F320E65001D6031 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					041616F71F320E65001D6031 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 041616E11F320E65001D6031;
+					};
+					041617021F320E65001D6031 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 041616E11F320E65001D6031;
+					};
+				};
+			};
+			buildConfigurationList = 041616DD1F320E65001D6031 /* Build configuration list for PBXProject "naturELLE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041616D91F320E65001D6031;
+			productRefGroup = 041616E31F320E65001D6031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041616E11F320E65001D6031 /* naturELLE */,
+				041616F71F320E65001D6031 /* naturELLETests */,
+				041617021F320E65001D6031 /* naturELLEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041616E01F320E65001D6031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041616F21F320E65001D6031 /* LaunchScreen.storyboard in Resources */,
+				041616EF1F320E65001D6031 /* Assets.xcassets in Resources */,
+				041616ED1F320E65001D6031 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041616F61F320E65001D6031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041617011F320E65001D6031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041616DE1F320E65001D6031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041616EA1F320E65001D6031 /* SecondViewController.swift in Sources */,
+				041616E61F320E65001D6031 /* AppDelegate.swift in Sources */,
+				041616E81F320E65001D6031 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041616F41F320E65001D6031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041616FD1F320E65001D6031 /* naturELLETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041616FF1F320E65001D6031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041617081F320E65001D6031 /* naturELLEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041616FA1F320E65001D6031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041616E11F320E65001D6031 /* naturELLE */;
+			targetProxy = 041616F91F320E65001D6031 /* PBXContainerItemProxy */;
+		};
+		041617051F320E65001D6031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041616E11F320E65001D6031 /* naturELLE */;
+			targetProxy = 041617041F320E65001D6031 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		041616EB1F320E65001D6031 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041616EC1F320E65001D6031 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		041616F01F320E65001D6031 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041616F11F320E65001D6031 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0416170A1F320E65001D6031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0416170B1F320E65001D6031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0416170D1F320E65001D6031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = naturELLE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.naturELLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0416170E1F320E65001D6031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = naturELLE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.naturELLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		041617101F320E65001D6031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = naturELLETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.naturELLETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/naturELLE.app/naturELLE";
+			};
+			name = Debug;
+		};
+		041617111F320E65001D6031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = naturELLETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.naturELLETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/naturELLE.app/naturELLE";
+			};
+			name = Release;
+		};
+		041617131F320E65001D6031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = naturELLEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.naturELLEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = naturELLE;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		041617141F320E65001D6031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = naturELLEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.naturELLEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = naturELLE;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041616DD1F320E65001D6031 /* Build configuration list for PBXProject "naturELLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0416170A1F320E65001D6031 /* Debug */,
+				0416170B1F320E65001D6031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0416170C1F320E65001D6031 /* Build configuration list for PBXNativeTarget "naturELLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0416170D1F320E65001D6031 /* Debug */,
+				0416170E1F320E65001D6031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0416170F1F320E65001D6031 /* Build configuration list for PBXNativeTarget "naturELLETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041617101F320E65001D6031 /* Debug */,
+				041617111F320E65001D6031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		041617121F320E65001D6031 /* Build configuration list for PBXNativeTarget "naturELLEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041617131F320E65001D6031 /* Debug */,
+				041617141F320E65001D6031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041616DA1F320E65001D6031 /* Project object */;
+}
