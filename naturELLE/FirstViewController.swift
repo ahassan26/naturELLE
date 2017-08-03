@@ -6,7 +6,7 @@
 //  Copyright © 2017 Amal . All rights reserved.
 //
 
-import UIKit
+/*import UIKit
 
 class FirstViewController: UIViewController {
 
@@ -23,3 +23,15 @@ class FirstViewController: UIViewController {
 
 }
 
+class MyViewController : UIViewController {
+    
+    @IBOutlet weak var pickerTextField : UITextField!
+    
+    let salutations = ["", "Mr.", "Ms.", "Mrs."]
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        pickerTextField.loadDropdownData(salutations)
+    }
+}*/
